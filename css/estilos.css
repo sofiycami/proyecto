@@ -1,33 +1,45 @@
-/* ===== GENERAL ===== */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
     background-color: #f5f1e8;
-    color: #333;
+    color: #2b2b2b;
     margin: 0;
 }
 
 /* ===== ENCABEZADO ===== */
 header {
-    background-color: #766c9e;
+    background-color: #4e4377;
     color: white;
-    padding: 20px;
+    padding: 24px 20px 0 20px;
     text-align: center;
+    border-bottom: 5px solid #c9a227;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: normal;
 }
 
 /* ===== MENU ===== */
 nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
 nav a {
+    display: inline-block;
     color: white;
     text-decoration: none;
-    padding: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 12px 16px;
 }
 
 nav a:hover {
@@ -39,25 +51,54 @@ nav a:hover {
 main {
     width: 80%;
     margin: 30px auto;
+    padding: 30px 40px;
     background-color: white;
-    padding: 20px;
+    border: 1px solid #e0d9c5;
+    border-top: 4px solid #4e4377;
 }
 
 h2 {
-    color: #000000;
+    color: #382f5a;
+    font-size: 29px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c9a227;
 }
 
 p {
-    line-height: 1.6;
-    text-align: justify;
+    line-height: 1.8;
+    text-align: left;
 }
 
+/* ===== LINKS DENTRO DEL CONTENIDO (bibliografia) ===== */
+main a {
+    color: #4e4377;
+}
+
+main a:hover {
+    color: black;
+    background-color: #f1e3a6;
+}
+
+/* ===== IMAGENES ===== */
 img {
-    width: 50%;
+    display: block;
+    width: 320px;
+    margin: 24px auto;
+    border: 6px solid white;
+    outline: 1px solid #e0d9c5;
 }
 
 /* ===== PIE DE PAGINA ===== */
 footer {
+    background-color: #382f5a;
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 16px;
+    font-size: 15px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
 }
