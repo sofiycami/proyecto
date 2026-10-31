@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Beato P. Faustino Oteiza Segura</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="condicion-iglesia.html">Condición dentro de la Iglesia</a></li>
+                <li><a href="legado.html">Legado</a></li>
+                <li><a href="mensaje.html">¿Qué queremos comunicarles?</a></li>
+                <li><a href="bibliografia.html">Bibliografía</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <main>
+        <h2>Quiz: ¿cuánto sabes del P. Faustino?</h2>
+        <p>Pon a prueba lo que aprendiste. Presiona "Responder" en cada pregunta y escribe el número de la opción que creas correcta.</p>
+ 
+        <div class="pregunta">
+            <h3>Pregunta 1</h3>
+            <p>¿Dónde nació el P. Faustino Oteiza?</p>
+            <button id="pregunta1">Responder</button>
+            <p id="feedback1"></p>
+        </div>
+ 
+        <div class="pregunta">
+            <h3>Pregunta 2</h3>
+            <p>¿A qué orden religiosa pertenecía?</p>
+            <button id="pregunta2">Responder</button>
+            <p id="feedback2"></p>
+        </div>
+ 
+        <div class="pregunta">
+            <h3>Pregunta 3</h3>
+            <p>¿Qué materias enseñó?</p>
+            <button id="pregunta3">Responder</button>
+            <p id="feedback3"></p>
+        </div>
+ 
+        <div class="pregunta">
+            <h3>Pregunta 4</h3>
+            <p>¿Qué cargo recibió el 26 de agosto de 1920?</p>
+            <button id="pregunta4">Responder</button>
+            <p id="feedback4"></p>
+        </div>
+ 
+        <div class="pregunta">
+            <h3>Pregunta 5</h3>
+            <p>¿En qué año murió?</p>
+            <button id="pregunta5">Responder</button>
+            <p id="feedback5"></p>
+        </div>
+ 
+        <p id="puntaje">Puntaje: 0 de 5 (respondidas: 0)</p>
+        <button id="btnResultado">Ver resultado final</button>
+        <button id="btnReiniciar">Reiniciar quiz</button>
+        <p id="resultado"></p>
+    </main>
+ 
+    <footer>
+        <p>Proyecto de Informática</p>
+    </footer>
+ 
+    <script src="../js/quiz.js"></script>
+</body>
+</html>
